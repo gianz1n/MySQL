@@ -15,5 +15,8 @@ nacionalidade_pessoas varchar(20) default 'Brasil',
 primary key(id)
 ) default charset = utf8;
 
+insert into tb_pessoas values (default, 'Samuel', '2009-07-03', 'M',' 75', '1.70', 'Brasil');
+
+select * from tb_pessoas;
 
 
